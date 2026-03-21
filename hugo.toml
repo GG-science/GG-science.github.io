@@ -1,0 +1,35 @@
+baseURL = "https://gg-science.github.io/"
+languageCode = "en-us"
+title = "GG Science"
+theme = "PaperMod"
+[pagination]
+  pagerSize = 10
+
+[params]
+  author = "GG"
+  description = "Applied data scientist and systems builder. ML, experimentation, causal inference. I write about what I built, what broke, and what the numbers said."
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+
+  [params.homeInfoParams]
+    Title = "Applied data scientist and systems builder."
+    Content = "ML, experimentation, causal inference. I write about what I built, what broke, and what the numbers said."
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/GG-science"
+
+[menu]
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 1
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
