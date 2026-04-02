@@ -1,35 +1,29 @@
 baseURL = "https://gg-science.github.io/"
 languageCode = "en-us"
-title = "GG Science"
+title = "Gagan Grewal"
 theme = "PaperMod"
+
 [pagination]
-  pagerSize = 10
+  pagerSize = 50
 
 [params]
-  author = "GG"
-  description = "Applied data scientist and systems builder. ML, experimentation, causal inference. I write about what I built, what broke, and what the numbers said."
-  defaultTheme = "auto"
+  description = "Applied data scientist. ML, experimentation, causal inference."
+  subtitle = "Machine Learning, Experimentation, and Data Systems"
   ShowReadingTime = true
-  ShowShareButtons = false
   ShowPostNavLinks = true
-  ShowBreadCrumbs = true
-  ShowCodeCopyButtons = true
-  ShowToc = true
+  ShowBreadCrumbs = false
+  ShowToc = false
 
-  [params.homeInfoParams]
-    Title = "Applied data scientist and systems builder."
-    Content = "ML, experimentation, causal inference. I write about what I built, what broke, and what the numbers said."
+[params.homeInfoParams]
+  Title = "Gagan Grewal"
+  Content = "Applied data scientist. ML, experimentation, causal inference."
 
-[[params.socialIcons]]
-  name = "github"
-  url = "https://github.com/GG-science"
+[[menus.main]]
+  name = "Blog"
+  url = "/posts/"
+  weight = 1
 
-[menu]
-  [[menu.main]]
-    name = "Posts"
-    url = "/posts/"
-    weight = 1
-  [[menu.main]]
-    name = "About"
-    url = "/about/"
-    weight = 2
+[[menus.main]]
+  name = "About"
+  url = "/about/"
+  weight = 2
