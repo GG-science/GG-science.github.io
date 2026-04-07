@@ -1,9 +1,8 @@
----
-title: "About"
-layout: "page"
-url: "/about/"
-summary: "About GG"
----
++++
+title = "About"
+menu = "main"
+weight = 2
++++
 
 Applied data scientist and systems builder. I work across ML, experimentation, causal inference, and product.
 

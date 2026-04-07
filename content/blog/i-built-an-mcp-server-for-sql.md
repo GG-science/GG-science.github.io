@@ -4,7 +4,6 @@ date: 2026-03-27
 draft: false
 tags: ["mcp", "sql", "data-engineering", "ai"]
 description: "Giving AI raw database access produces bad queries faster. The missing piece is a knowledge layer that teaches the AI your data model and learns from real sessions."
-ShowToc: false
 ---
 
 Every data scientist I know has the same workflow: ask an AI a data question, leave the conversation, open a SQL console, write the query, copy the results back. The round-trip kills flow state and makes iterative analysis painful.
