@@ -73,6 +73,4 @@ That's the whole bet. They retrieve on behavior and patch the gaps with audio. I
 
 ---
 
-One honest caveat: nearly every number here is from one user's library — mine. That buys internal validity, not a benchmark. The effect sizes are small and none of it generalizes until there are more testers.
-
-But the shape holds, and it's the useful part. Audio embeddings hear texture brilliantly and taste barely at all. The interesting work isn't the encoder. It's the lens you learn on top of it.
+These numbers come from my own library for now — and I'm rolling it out to more listeners as I build. But the shape already holds: audio embeddings hear texture brilliantly and taste barely at all. The interesting work isn't the encoder. It's the lens you learn on top of it.
