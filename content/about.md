@@ -4,11 +4,11 @@ menu = "main"
 weight = 2
 +++
 
-Applied data scientist and systems builder. I work across ML, experimentation, causal inference, and product.
+Senior data scientist and systems builder. I work across ML, experimentation, causal inference, and product.
 
 I write about what I built, what broke, and what the numbers said.
 
-**Currently:** Senior Applied Scientist at Amazon, building measurement and ML systems — across Prime Video and Ads.
+**Currently:** Senior Data Scientist at Amazon, building measurement and ML systems — across Prime Video and Ads.
 
 **Education:** M.S. in Data Science / Business Analytics, W. P. Carey School of Business, Arizona State University.
 
