@@ -63,7 +63,7 @@ And the moment goes on the surface, where you can reach it. Spotify keeps your m
 
 That is the whole wager. They search on behavior and reach for audio when behavior runs out. I search on a frozen per-listener audio lens, aimed at a moment you name, with your own feedback filling in the feeling the sound never carried.
 
-The numbers here are from my own library so far. We are now running larger-scale tests, gathering randomized data across different systems to develop a finer model before opening it to the public. The shape has held the whole way: audio tells you a great deal about how a song moves and almost nothing about how it feels. Whether that lens actually beats the raw sound is the question we are testing next.
+The numbers here are from my own library so far. I am now running larger-scale tests, gathering randomized data across different systems to develop a finer model before opening it to the public. The shape has held the whole way: audio tells you a great deal about how a song moves and almost nothing about how it feels. Whether that lens actually beats the raw sound is the question I am testing next.
 
 ---
 
