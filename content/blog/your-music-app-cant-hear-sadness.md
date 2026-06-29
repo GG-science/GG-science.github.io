@@ -28,6 +28,8 @@ Audio does appear, in one specific corner: cold start. A track released yesterda
 
 Audio is the patch they reach for when behavior is missing. The rest of the time they search on behavior, because what you have already played predicts what you will play next far better than what the music sounds like.
 
+None of this is a knock on collaborative filtering. It is a good system. It reliably finds music you will enjoy, and it gets sharper every time you press play. The blind spots are structural, not careless. A song you have never played leaves no trail for it to follow, so the deep catalog stays invisible. And the mood you are in right now is something it guesses from your clicks, because you were never given a way to just tell it.
+
 ## Why the sound can't carry the mood
 
 Maybe valence, the happy-to-sad axis, is just hard for my particular model. It is not a me problem. The labs that do this for a living have hit the same wall and published it. Deezer trained a model to read mood off 18,000 tracks and presented it at [ISMIR 2018](https://arxiv.org/abs/1809.07276). From audio alone, it predicted arousal, how energetic a track is, at an R² of 0.235, and valence at 0.179.
@@ -61,7 +63,7 @@ The part the audio cannot hear, I take from what you do. A skip is the nearest t
 
 And the moment goes on the surface, where you can reach it. Spotify keeps your mood and your context buried, inferred from clicks and never asked out loud. I let you say it, and I retrieve against it directly.
 
-That is the whole wager. They search on behavior and reach for audio when behavior runs out. I search on a frozen per-listener audio lens, aimed at a moment you name, with your own feedback filling in the feeling the sound never carried.
+That is the whole wager. Collaborative filtering owns the ground it is good at: the popular, the familiar, the next thing people like you will play. I am building for the corners it cannot see — a frozen per-listener audio lens, aimed at a moment you name, with your own feedback filling in the feeling the sound never carried. Not a replacement for behavior, a complement to it.
 
 The numbers here are from my own library so far. I am now running larger-scale tests, gathering randomized data across different systems to develop a finer model before opening it to the public. The shape has held the whole way: audio tells you a great deal about how a song moves and almost nothing about how it feels. Whether that lens actually beats the raw sound is the question I am testing next.
 
