@@ -30,9 +30,7 @@ Audio is the patch they reach for when behavior is missing. The rest of the time
 
 ## Why the sound can't carry the mood
 
-Maybe valence, the happy-to-sad axis, is just hard for my particular model. It is not a me problem. The labs that do this for a living have hit the same wall and published it.
-
-Deezer trained a model to read mood off 18,000 tracks and presented it at [ISMIR 2018](https://arxiv.org/abs/1809.07276). From audio alone, it predicted arousal, how energetic a track is, at an R² of 0.235, and valence at 0.179.
+Maybe valence, the happy-to-sad axis, is just hard for my particular model. It is not a me problem. The labs that do this for a living have hit the same wall and published it. Deezer trained a model to read mood off 18,000 tracks and presented it at [ISMIR 2018](https://arxiv.org/abs/1809.07276). From audio alone, it predicted arousal, how energetic a track is, at an R² of 0.235, and valence at 0.179.
 
 | dimension | audio-only R² |
 |---|---|
