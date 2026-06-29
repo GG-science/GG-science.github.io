@@ -26,7 +26,7 @@ The question that matters is what signal drives the first stage. For Spotify, De
 
 Audio does appear, in one specific corner: cold start. A track released yesterday has no plays, so there is no behavioral signal to retrieve it with. Spotify [wrote this up](https://sander.ai/2014/08/05/spotify-cnns.html) back in 2014: "if there is no usage data to analyze, the collaborative filtering approach breaks down — the cold-start problem." Their fix was an audio model that guesses a new track's behavioral vector from its sound, so the song can sit next to similar ones until real play data shows up.
 
-Audio is the patch they reach for when behavior is missing. It is not what they search on. Behavior is, because behavior is what predicts more behavior.
+Audio is the patch they reach for when behavior is missing. The rest of the time they search on behavior, because what you have already played predicts what you will play next far better than what the music sounds like.
 
 ## Why the sound can't carry the mood
 
