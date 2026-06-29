@@ -63,4 +63,15 @@ And the moment goes on the surface, where you can reach it. Spotify keeps your m
 
 That is the whole wager. They search on behavior and reach for audio when behavior runs out. I search on a frozen per-listener audio lens, aimed at a moment you name, with your own feedback filling in the feeling the sound never carried.
 
-The numbers here are from my own library so far, and I am opening it up to more listeners now. The shape has held the whole way: audio tells you a great deal about how a song moves and almost nothing about how it feels. Whether that lens actually beats the raw sound is the question I am testing next.
+The numbers here are from my own library so far. We are now running larger-scale tests, gathering randomized data across different systems to develop a finer model before opening it to the public. The shape has held the whole way: audio tells you a great deal about how a song moves and almost nothing about how it feels. Whether that lens actually beats the raw sound is the question we are testing next.
+
+---
+
+## References
+
+- van den Oord, Dieleman & Schrauwen. "Deep Content-Based Music Recommendation." *NeurIPS* 2013. See also S. Dieleman, ["Recommending music on Spotify with deep learning"](https://sander.ai/2014/08/05/spotify-cnns.html) (2014) — the cold-start writeup quoted above.
+- Delbouys et al. ["Music Mood Detection Based on Audio and Lyrics with Deep Neural Net."](https://arxiv.org/abs/1809.07276) *ISMIR* 2018. (Deezer)
+- Aljanaki, Yang & Soleymani. ["Developing a Benchmark for Emotional Analysis of Music."](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0173392) *PLOS ONE* 2017. (the DEAM benchmark)
+- Wu et al. ["Large-Scale Contrastive Language-Audio Pretraining with Feature Fusion and Keyword-to-Caption Augmentation."](https://arxiv.org/abs/2211.06687) 2022. (CLAP)
+- Li, Yuan, Zhang et al. ["MERT: Acoustic Music Understanding Model with Large-Scale Self-Supervised Training."](https://arxiv.org/abs/2306.00107) *ICLR* 2024.
+- Zhu et al. ["MuQ: Self-Supervised Music Representation Learning with Mel Residual Vector Quantization."](https://arxiv.org/abs/2501.01108) 2025. (MuQ-MuLan)
